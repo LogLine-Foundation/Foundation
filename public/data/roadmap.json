@@ -1,0 +1,88 @@
+{
+  "phases": [
+    {
+      "id": "T0",
+      "title": "Instalação",
+      "start": "2025-11-16",
+      "end": "2025-12-15",
+      "tasks": [
+        {
+          "id": "T0-1",
+          "title": "Instituir Regime Transitório (RIT-TR)",
+          "done": true
+        },
+        {
+          "id": "T0-2",
+          "title": "Nomear Trustee interino e Secretaria do Ledger",
+          "done": false
+        },
+        {
+          "id": "T0-3",
+          "title": "Aprovar Políticas-base (Conflitos/Transparência/Orçamento)",
+          "done": false
+        },
+        {
+          "id": "T0-4",
+          "title": "Publicação Bilíngue das normas",
+          "done": false
+        },
+        {
+          "id": "T0-5",
+          "title": "Ativar CI de Provas e página Provas ao vivo",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "title": "Consolidação inicial",
+      "start": "2025-12-16",
+      "end": "2026-01-31",
+      "tasks": [
+        {
+          "id": "T1-1",
+          "title": "Completar 3 trustees humanos (quórum)",
+          "done": false
+        },
+        {
+          "id": "T1-2",
+          "title": "Instalar Comitês e agenda de reuniões",
+          "done": false
+        },
+        {
+          "id": "T1-3",
+          "title": "OCDS: estrutura de dados para procurement/grants",
+          "done": false
+        },
+        {
+          "id": "T1-4",
+          "title": "Plataforma de avaliações (AISI-style) — MVP",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Pleno funcionamento",
+      "start": "2026-02-01",
+      "end": "2026-03-31",
+      "tasks": [
+        {
+          "id": "T2-1",
+          "title": "Ratificação das decisões T0/T1",
+          "done": false
+        },
+        {
+          "id": "T2-2",
+          "title": "Diretivas e execução vinculada (KPIs)",
+          "done": false
+        },
+        {
+          "id": "T2-3",
+          "title": "Relatório público de auditoria (T+15)",
+          "done": false
+        }
+      ]
+    }
+  ]
+}

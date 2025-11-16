@@ -1,0 +1,20 @@
+---
+title: Checklist de Conformidade (PR)
+description: Espelho do template de PR para revisões rápidas antes do merge.
+---
+
+# Checklist de Conformidade (PR)
+
+> Use esta lista como *pré-voo* antes de abrir o PR. O template oficial está em `.github/pull_request_template.md`.
+
+- Uso Pacífico: `usage_decl.peaceful_only = true`
+- Bilinguismo PT–EN: `lang=['pt-PT-cplp','en']` + links cruzados
+- Machine Gate: `PASSED` + atestação
+- Provas: BLAKE3 + Ed25519 + verificador local/CI
+- Rito adequado + campos obrigatórios
+- Conflitos de interesse anexados (quando aplicável)
+- Orçamento/Cap de Transição respeitados
+- Chaves/Segredos fora do repo (somente em secrets)
+- Acessibilidade e privacidade ok
+- Preview Vercel + release cut
+

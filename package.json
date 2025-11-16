@@ -1,0 +1,24 @@
+{
+  "name": "logline-foundation-flagship",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "verify": "node scripts/verify.mjs public/ledger/sample.ndjson",
+    "demo:gen": "node scripts/gen_demo.mjs",
+    "demo:verify": "npm run verify",
+    "ci:proof": "node scripts/ci_proof.mjs",
+    "publish:span": "node scripts/ledger_publish.mjs",
+    "release:cut": "node scripts/release_cut.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@next/mdx": "14.2.5",
+    "@noble/ed25519": "2.0.0",
+    "blake3": "2.1.7"
+  }
+}

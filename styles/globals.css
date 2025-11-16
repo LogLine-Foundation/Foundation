@@ -1,0 +1,26 @@
+
+:root{
+  --bg:#0A0C0F;
+  --text:#E6E8EB;
+  --muted:#9AA3AE;
+  --line:#1A1D22;
+  --accent:#1F5AA8; /* institucional */
+  --verify:#14A86D; /* verificado */
+  --card:#0F1216;
+}
+*{box-sizing:border-box}
+html,body{padding:0;margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans",sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:960px;margin:0 auto;padding:24px}
+header,footer{border-bottom:1px solid var(--line)}
+footer{border-top:1px solid var(--line);border-bottom:none;margin-top:48px;padding-top:24px}
+nav a{margin-right:16px}
+h1,h2,h3{font-family:"Source Serif 4", serif}
+.card{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:16px;margin:16px 0}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--line);font-size:12px;color:var(--muted)}
+.badge.verified{border-color:var(--verify);color:var(--verify)}
+.table{width:100%;border-collapse:collapse;border:1px solid var(--line)}
+.table th,.table td{border-bottom:1px solid var(--line);padding:8px;text-align:left;font-size:14px}
+.button{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--text)}
+.button.primary{background:var(--accent);border-color:var(--accent);color:white}

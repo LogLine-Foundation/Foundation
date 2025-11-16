@@ -1,0 +1,45 @@
+{
+  "type": "RIT",
+  "subtype": "ratificacao_t2",
+  "id": "RIT-RAT2-YYYYMMDD-SEQ",
+  "policy": {
+    "vote_mode": "nominal",
+    "threshold": "2/3",
+    "quorum_rule": {
+      "P": "2/3"
+    }
+  },
+  "slo": {
+    "ata_resumo_hours": 24,
+    "ata_completa_hours": 72
+  },
+  "payload": {
+    "ratify_list": [
+      {
+        "id": "RIT-AP-20251116-001",
+        "type": "RIT"
+      },
+      {
+        "id": "POL-20251116-TR-1.0",
+        "type": "POL"
+      }
+    ],
+    "window_days": 30
+  },
+  "outputs": {
+    "ratified_ids": [],
+    "suspended_ids": []
+  },
+  "machine_gate": "REQUIRED",
+  "compliance_attestation": {
+    "agent": "policy_agent",
+    "attested": false,
+    "checks": [],
+    "evidence": [],
+    "timestamp": null,
+    "signature_ed25519": null
+  },
+  "hash_b3": "TO_BE_COMPUTED",
+  "signature_ed25519": "TO_BE_COMPUTED",
+  "public_key": "PUBKEY_HEX"
+}

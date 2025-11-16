@@ -1,0 +1,45 @@
+---
+title: Manifesto da LogLine Foundation
+description: Governança verificável, parceria humano–IA e uso pacífico.
+---
+
+# Manifesto da LogLine Foundation
+
+_A Fundação que rege contratos e ritos **computáveis**, com **provas por padrão**, para que decisões importem — e possam ser verificadas._
+
+## 1. Parceria humano–IA (ética, segurança e eficiência)
+- **Primazia humana**: votos e deliberações são humanos; IA atua como **atestadora** e executora de políticas, com rastro verificável.
+- **Transparência verificável**: toda atuação deixa **hash BLAKE3** e **assinatura Ed25519** no ledger.
+- **Gates técnicos**: nenhuma decisão vigora sem **machine_gate: PASSED** e **attestation** do _policy_agent_.
+- **Controle & reversibilidade**: fallback humano e cancelamento de execuções.
+
+## 2. Português da CPLP como língua companheira
+- Dupla canonicidade **PT (CPLP, AO90)** + **EN** nos artefatos normativos.
+- Em divergências, prevalece a interpretação **mais protetiva** de direitos.
+- Campo `lang=['pt-PT-cplp','en']` obrigatório nos templates JSON✯Atomic.
+
+## 3. Uso pacífico
+- Vedado: usos **bélicos/militares** e violações de direitos humanos.
+- Permitido: usos **pessoais, comerciais, educacionais, pesquisa civil**.
+- Artefatos exigem `usage_decl.peaceful_only = true`.
+
+## 4. Governança 100% digital
+- **Ritos computáveis** com prazos (SLOs), quórum e votação definidos.
+- **Atas, votos, políticas e diretivas** com IDs, hashes, assinaturas e estado público (*Em vigor*, *Em revisão*, *Revogada*).
+- **Auditoria independente** + plataforma de verificação local (CLI/API).
+
+## 5. Padrões mantidos
+- **JSON✯Atomic** — fatos assinados, ledger JSONL, provas de inclusão.
+- **LogLineOS** — execução de políticas e spans governáveis.
+- **TDLN** — tradução determinística com provas.
+
+## 6. Como provar (hoje)
+- Rode `npm run demo:gen` para gerar chaves, calcular BLAKE3 e assinar o ledger de exemplo.
+- Abra **/transparencia/ledger** e verifique as entradas com **Assinatura verificada**.
+- Veja o núcleo técnico em **/engenharia/logline-101**.
+
+## 7. O que copiamos do mundo (e o que melhoramos)
+> **O que copiamos:** infra de verificação pública, gestão de risco e padrões de dados abertos.  
+> **O que melhoramos:** levamos a prova criptográfica para **cada rito** e **cada decisão**, com “machine gate” obrigatório, bilinguismo PT–EN por padrão e compromisso verificável de **uso pacífico**.
+
+**Próximo passo:** mergulhe em **Comparativo & Radar** para ver quem já faz algo parecido, seus acertos/erros e onde a Fundação se diferencia.
